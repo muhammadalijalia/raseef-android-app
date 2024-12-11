@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation_graph"
+    app:startDestination="@id/tempFragment">
+
+    <fragment
+        android:id="@+id/tempFragment"
+        android:name="com.teamx.raseef.ui.fragments.temp.TempFragment"
+        android:label="TempFragment"
+        tools:layout="@layout/fragment_temp"/>
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.teamx.rassef.ui.fragments.login.LogInFragment"
+        android:label="LogInFragment" />
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.teamx.rassef.ui.fragments.login.SignupFragment"
+        android:label="SignupFragment" />
+    <fragment
+        android:id="@+id/forgotFragment"
+        android:name="com.teamx.rassef.ui.fragments.login.ForgotFragment"
+        android:label="ForgotFragment" />
+    <fragment
+        android:id="@+id/codeFragment"
+        android:name="com.teamx.rassef.ui.fragments.login.CodeFragment"
+        android:label="CodeFragment" />
+    <fragment
+        android:id="@+id/createPassFragment"
+        android:name="com.teamx.rassef.ui.fragments.login.CreatePassFragment"
+        android:label="CreatePassFragment" />
+    <fragment
+        android:id="@+id/passwordChangeFragment"
+        android:name="com.teamx.rassef.ui.fragments.login.PasswordChangeFragment"
+        android:label="PasswordChangeFragment" />
+    <fragment
+        android:id="@+id/allowLocationFragment"
+        android:name="com.teamx.rassef.ui.fragments.login.AllowLocationFragment"
+        android:label="AllowLocationFragment" />
+    <fragment
+        android:id="@+id/orderSucessFragment"
+        android:name="com.teamx.rassef.ui.fragments.login.OrderSucessFragment"
+        android:label="OrderSucessFragment" />
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.teamx.rassef.ui.fragments.login.AboutUsFragment"
+        android:label="AboutUsFragment" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.teamx.raseef.ui.fragments.notification.NotificationFragment"
+        android:label="NotificationFragment" />
+    <fragment
+        android:id="@+id/contactUsFragment"
+        android:name="com.teamx.rassef.ui.fragments.login.ContactUsFragment"
+        android:label="ContactUsFragment" />
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.teamx.raseef.ui.fragments.language.LanguageFragment"
+        android:label="LanguageFragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.teamx.raseef.fragments.settings.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.teamx.raseef.ui.fragments.paymentMethod.PaymentFragment"
+        android:label="PaymentFragment" />
+    <fragment
+        android:id="@+id/paymentMethodCard"
+        android:name="com.teamx.raseef.ui.fragments.paymentMethodCard.PaymentMethodCard"
+        android:label="PaymentMethodCard" />
+    <fragment
+        android:id="@+id/currentOrderFragment"
+        android:name="com.teamx.raseef.ui.fragments.currentOrder.CurrentOrderFragment"
+        android:label="CurrentOrderFragment" />
+    <fragment
+        android:id="@+id/pastOrderFragment"
+        android:name="com.teamx.rassef.ui.fragments.login.PastOrderFragment"
+        android:label="PastOrderFragment" />
+    <fragment
+        android:id="@+id/shopHomePageFragment"
+        android:name="com.teamx.raseef.ui.fragments.shopHomePage.ShopHomePageFragment"
+        android:label="ShopHomePageFragment" />
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="com.teamx.rassef.ui.fragments.login.UserProfileFragment"
+        android:label="UserProfileFragment" />
+    <fragment
+        android:id="@+id/reviewListFragment"
+        android:name="com.teamx.raseef.ui.fragments.reviewlist.ReviewListFragment"
+        android:label="ReviewListFragment" />
+    <fragment
+        android:id="@+id/productPreviewFragment"
+        android:name="com.teamx.raseef.ui.fragments.product.ProductPreviewFragment"
+        android:label="ProductPreviewFragment" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.teamx.raseef.ui.fragments.cart.CartFragment"
+        android:label="CartFragment" />
+    <fragment
+        android:id="@+id/checkoutFragment"
+        android:name="com.teamx.raseef.ui.fragments.checkout.CheckoutFragment"
+        android:label="CheckoutFragment" />
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.teamx.raseef.ui.fragments.editProfile.EditProfileFragment"
+        android:label="EditProfileFragment" />
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.teamx.raseef.ui.fragments.intro.IntroFragment"
+        android:label="IntroFragment" />
+
+
+</navigation>
